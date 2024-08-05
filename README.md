@@ -1,75 +1,20 @@
-# Nuxt 3 Minimal Starter
+# Indonesian Housekeepers Association (IHKA) Jawa Barat
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Aplikasi profil organisasi yang dibangun menggunakan Nuxt. Aplikasi ini menampilkan profil dari IHKA Jawa Barat dan berita-berita terkait IHKA Jawa Barat dan BPC di bawahnya
 
-## Setup
+Website: [Ihka Jabar](https://ihka-jabar.pages.dev/)
 
-Make sure to install the dependencies:
+## Features
 
-```bash
-# npm
-npm install
+- Menampilkan informasi terkait IHKA Jawa Barat
+- Dashboard Admin untuk membuat berita
+- Dashboard Moderator untuk menyetujui berita
+- Dashboard Superadmin untuk manajemen admin daerah dan cabang
 
-# pnpm
-pnpm install
+## Tech
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Vue - Frontend
+- Nuxt - Fullstack
+- Cloudflare D1 - Headless Database 
+- Cloudflare KV - KV Storage
+- Cloudflare pages - Platform for deploying
