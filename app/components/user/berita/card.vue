@@ -15,7 +15,7 @@ async function getImgSrc() {
     method: 'GET',
     onResponseError: (error) => {
       console.error(error)
-      console.log(error.error)
+      console.log(error.error?.message)
     },
   })
 
